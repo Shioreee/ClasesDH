@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset= "utf-8">
+  <link rel="stylesheet" href="css/ultimoejercicioclase4.css">
+  <title> Encuesta DH </title>
+  </head>
+    <body>
+      <h1 id="inicio"> Encuesta HTML semana 1</h1>
+        <form action="http://www.digitalhouse.com/post.php"
+              method="POST">
+
+          <p>Te pedimos que dediques cinco minutos para contestar esta
+             encuesta. Nos sirve para mejorar.<br>Gracias!
+          </p>
+          <p>¿Juan demostró conocimiento en el tema?</p>
+           <input type="checkbox" name="calificacion1" value="uno">1
+           <input type="checkbox" name="calificacion1" value="dos">2
+           <input type="checkbox" name="calificacion1" value="tres">3
+           <input type="checkbox" name="calificacion1" value="cuatro">4
+           <input type="checkbox" name="calificacion1" value="cinco">5
+
+          <p>¿Juan fue claro al exponer los contenidos?</p>
+            <select name="calificacion" multiple>
+              <option name="Calificacion2"value="uno"> 1 </option>
+              <option name="Calificacion2"value="dos"> 2 </option>
+              <option name="Calificacion2"value="tres"> 3 </option>
+              <option name="Calificacion2"value="cuatro"> 4 </option>
+              <option name="Calificacion2"value="cinco"> 5 </option>
+            </select>
+
+          <p>¿Juan se mostró atento a las dudas e interacciones del alumnado?</p>
+           <input type="radio" name="Calificacion3" value="uno">1</input>
+           <input type="radio" name="Calificacion3" value="dos">2</input>
+           <input type="radio" name="Calificacion3" value="tres">3</input>
+           <input type="radio" name="Calificacion3" value="cuatro">4</input>
+           <input type="radio" name="Calificacion3" value="cinco">5</input>
+
+          <p>¿Nick demostró conocimiento en el tema?</p>
+           <input type="radio" name="Calificacion4" value="uno">1</input>
+           <input type="radio" name="Calificacion4" value="dos">2</input>
+           <input type="radio" name="Calificacion4" value="tres">3</input>
+           <input type="radio" name="Calificacion4" value="cuatro">4</input>
+           <input type="radio" name="Calificacion4" value="cinco">5</input>
+
+          <p>¿Nick se mostró atento a las dudas e interacciones del alumnado?</p>
+           <input type="radio" name="Calificacion5" value="uno">1</input>
+           <input type="radio" name="Calificacion5" value="dos">2</input>
+           <input type="radio" name="Calificacion5" value="tres">3</input>
+           <input type="radio" name="Calificacion5" value="cuatro">4</input>
+           <input type="radio" name="Calificacion5" value="cinco">5</input>
+
+          <p>¿Daniel pudo resolver dudas y acompañar la práctica?</p>
+           <input type="radio" name="Calificacion6" value="uno">1</input>
+           <input type="radio" name="Calificacion6" value="dos">2</input>
+           <input type="radio" name="Calificacion6" value="tres">3</input>
+           <input type="radio" name="Calificacion6" value="cuatro">4</input>
+           <input type="radio" name="Calificacion6" value="cinco">5</input>
+
+           <p>¿Daniel se mostró atento a las dudas e interacciones del alumnado?</p>
+            <input type="radio" name="Calificacion7" value="uno">1</input>
+            <input type="radio" name="Calificacion7" value="dos">2</input>
+            <input type="radio" name="Calificacion7" value="tres">3</input>
+            <input type="radio" name="Calificacion7" value="cuatro">4</input>
+            <input type="radio" name="Calificacion7" value="cinco">5</input>
+
+          <p>¿Pudiste avanzar en la práctica aplicando conocimientos nuevos?</p>
+            <input type="radio" name="Calificacion8" value="uno">1</input>
+            <input type="radio" name="Calificacion8" value="dos">2</input>
+            <input type="radio" name="Calificacion8" value="tres">3</input>
+            <input type="radio" name="Calificacion8" value="cuatro">4</input>
+            <input type="radio" name="Calificacion8" value="cinco">5</input>
+
+           <p>¿Cómo sentís que fue el ritmo del curso hasta ahora?</p>
+             <select name="ritmocursada" id="escuela2" >
+                <option value="default">     </option>
+                <option >Muy lento</option>
+                <option >Lento</option>
+                <option >A buen ritmo</option>
+                <option >Rapido</option>
+                <option >Muy rapido</option>
+             </select>
+
+           <p>¿La organización de Digital House permitió que las clases se ejecuten en tiempo y forma?</p>
+             <select name="organizacion">
+               <option value="default"></option>
+               <option>Sí</option>
+               <option>No</option>
+             </select>
+
+           <p> Comentarios </p>
+           <textarea name="comentarios" placeholder="Ingrese aqui su comentario" id="comentariotextbox" cols="70" rows="7"></textarea>
+             <br><br>
+           <input type="submit" value="Enviar">
+             <br>
+        </form>
+     <a href="#inicio">Volver arriba</a>
+    </body>
+</html>
